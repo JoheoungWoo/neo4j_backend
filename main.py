@@ -11,7 +11,8 @@ app = FastAPI(title="소라와 유라야 안녕", version="1.0.0")
 
 # ✅ [수정] 프론트엔드 주소 허용 (CORS)
 origins = [
-    "https://neo4j-frontend-seven.vercel.app"
+    "https://neo4j-frontend-seven.vercel.app",
+    "neo4jbackend-production.up.railway.app"
 ]
 
 app.add_middleware(
